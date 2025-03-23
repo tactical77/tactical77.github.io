@@ -1,0 +1,1 @@
+/Users/dw/Library/Mobile Documents/iCloud~md~obsidian/Documents/pentest/htb/Dog.md
