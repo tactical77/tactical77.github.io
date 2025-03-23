@@ -13,6 +13,7 @@ We start of credentials provided to us for enumeration.
 ## User flag
 ### nmap scan
 
+```bash
 Starting Nmap 7.95 ( https://nmap.org ) at 2025-02-06 22:40 CET
 Nmap scan report for 10.10.11.42
 Host is up (0.029s latency).
@@ -36,6 +37,7 @@ PORT     STATE SERVICE       VERSION
 |_http-server-header: Microsoft-HTTPAPI/2.0
 |_http-title: Not Found
 Service Info: Host: DC; OS: Windows; CPE: cpe:/o:microsoft:windows
+```
 
 This looks like a standard windows box with all usuall ports running on a domain controller. One thing stand out is the ftp port.
 ### smb enumeration
